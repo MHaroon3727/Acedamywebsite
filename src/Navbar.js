@@ -1,20 +1,36 @@
 import React from 'react'
-const Navbar = () => {
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
+// import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+
+function navbar() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href="google.com">About</a>
-        </li>
-        <li>
-          <a>Services</a>
-        </li>
-        <li>
-          <a>contact</a>
-        </li>
-      </ul>
-    </nav>
+   <>
+   <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide><img src='./logo192.png'/> </SwiperSlide>
+        <SwiperSlide><img src='./logo192.png'/></SwiperSlide>
+        <SwiperSlide><img src='./logo192.png'/></SwiperSlide>
+        <SwiperSlide><img src='./logo192.png'/></SwiperSlide>
+        <SwiperSlide><img src='./logo192.png'/></SwiperSlide>
+        <SwiperSlide><img src='./logo192.png'/></SwiperSlide>
+        <SwiperSlide><img src='./logo192.png'/></SwiperSlide>
+        <SwiperSlide><img src='./logo192.png'/></SwiperSlide>
+        <SwiperSlide><img src='./logo192.png'/></SwiperSlide>
+      </Swiper></>
   )
 }
 
-export default Navbar
+export default navbar
