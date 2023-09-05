@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Acedamywebsite/static/css/main.b0469a58.css",
+    "main.js": "/Acedamywebsite/static/js/main.90f3413b.js",
+    "static/media/card1.png": "/Acedamywebsite/static/media/card1.664d1e7ab6eb3c894080.png",
+    "index.html": "/Acedamywebsite/index.html",
+    "main.b0469a58.css.map": "/Acedamywebsite/static/css/main.b0469a58.css.map",
+    "main.90f3413b.js.map": "/Acedamywebsite/static/js/main.90f3413b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0469a58.css",
+    "static/js/main.90f3413b.js"
+  ]
+}
